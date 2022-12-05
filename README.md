@@ -16,45 +16,45 @@ Practicing compassionate code reviews is important (you can learn more from this
 ## Base Required Features 
 
 - Multi-Part Form:  
-  - [ ] Able to add feedback
-    - [ ] Data collected on individual pages & components
-    - [ ] Click on next takes you to the next page in sequence
-    - [ ] Data saves in DB after *all* the parts are completed (not piecemeal)
-    - [ ] Thank you page takes you back to the first view
+  - [x] Able to add feedback
+    - [x] Data collected on individual pages & components
+    - [x] Click on next takes you to the next page in sequence
+    - [x] Data saves in DB after *all* the parts are completed (not piecemeal)
+    - [x] Thank you page takes you back to the first view
 
 - Client code:
-  - [ ]  Individual components for each form part
-  - [ ]  Redux setup complete
-    - [ ] Store linked to react with `<Provider>`
-    - [ ] Store setup with reducer(s) and logger middleware 
-  - [ ] Reducers & Actions Working
-    - [ ] Actions are in SCREAMING_SNAKE_CASE and semantically named
-    - [ ] Actions have a `type` key, and `payload` if sending data
-    - [ ] Reducers are returning a new state, or the old state (not mutating)
-    - [ ] Reducers are using spread correctly (to keep old data, while adding new)
-  - [ ] React-Redux Working
-    - [ ] `useDispatch` in components correctly & dispatching Actions onClick
-    - [ ] `useSelector` when data is needed from Redux for submission
-  - [ ] Axios POST request to add feedback
+  - [x]  Individual components for each form part
+  - [x]  Redux setup complete
+    - [x] Store linked to react with `<Provider>`
+    - [x] Store setup with reducer(s) and logger middleware 
+  - [x] Reducers & Actions Working
+    - [x] Actions are in SCREAMING_SNAKE_CASE and semantically named
+    - [x] Actions have a `type` key, and `payload` if sending data
+    - [x] Reducers are returning a new state, or the old state (not mutating)
+    - [x] Reducers are using spread correctly (to keep old data, while adding new)
+  - [x] React-Redux Working
+    - [x] `useDispatch` in components correctly & dispatching Actions onClick
+    - [x] `useSelector` when data is needed from Redux for submission
+  - [x] Axios POST request to add feedback
 
 - Server code:   
-  - [ ] Router, with a `POST` endpoint to submit feedback
+  - [x] Router, with a `POST` endpoint to submit feedback
 
 
 ## General Items
 Feedback should be provided for these items, but they do not impact scoring.
 
 - Git 
-  - [ ] Multiple git commits showing incremental progress
-  - [ ] Commits are descriptive of the changes made or feature added 
-  - [ ] Has .gitignore with node_modules
-  - [ ] Readme file updated (assuming this is previously discussed)
+  - [x] Multiple git commits showing incremental progress
+  - [x] Commits are descriptive of the changes made or feature added 
+  - [x] Has .gitignore with node_modules
+  - [ ] Readme file updated (assuming this is previously discussed) <- ReadMe should include project description, installation instructions and additional notes
 - Code Style 
-  - [ ] Appropriate amount of code comments
-  - [ ] Code is consistently formatted
+  - [x] Appropriate amount of code comments
+  - [x] Code is consistently formatted
 - Client
-  - [ ] Appropriate use of HTML tags
-  - [ ] Basic CSS styling with margins/padding
+  - [x] Appropriate use of HTML tags
+  - [x] Basic CSS styling with margins/padding
 
 
 ## Stretch Goals
